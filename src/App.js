@@ -1,4 +1,4 @@
-import  React, { Suspense, lazy } from 'react';
+import  React, { Suspense } from 'react';
 import NavBar from './components/NavBar';
 import {BrowserRouter as Router, Switch,Route} from 'react-router-dom';
 import SmoothScrollbar from './components/SmoothScrollbar';
@@ -20,7 +20,7 @@ const App = () => {
     <Suspense fallback={<Spinner />}>
     <Switch>
     <Route exact path='/' component={Home} />
-    <Route path='/about' component={Projects} />
+    <Route path='/about' component={About} />
     <Route path='/projects' component={Projects} />
     <Route path='/contact' component={Contact} />
   </Switch>
