@@ -7,7 +7,7 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
   :root{
-    --dark-bg: #262626;
+    --dark-bg: #272727;
     --gray-1: #BCB4B4;
     --deep-dark: #1E1E1E;
     --gray-2: #363636;
@@ -16,7 +16,7 @@ const GlobalStyles = createGlobalStyle`
   }
   html{
     font-size: 10px;
-    font-family: 'Roboto', sans-serif;
+    
     color: white;
     background-color: #272727;
   }
@@ -38,6 +38,15 @@ const GlobalStyles = createGlobalStyle`
     max-width: 1200px;
     width: 90%;
     margin: 0 auto;
+  }
+  .loader{
+    text-align: center;
+    background-color: var(--dark-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
   }
 /* Smooth Scroll  */
   [data-scrollbar] {
