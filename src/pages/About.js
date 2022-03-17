@@ -1,11 +1,10 @@
-import React from 'react';
-import styled from 'styled-components';
-import PText from '../components/PText';
-import Button from '../components/Button';
-import AboutImg from '../assets/aboutMePage.svg';
-import AboutInfoItem from '../components/AboutInfoItem';
-import ContactBanner from '../components/ContactBanner';
-
+import React from "react";
+import styled from "styled-components";
+import PText from "../components/PText";
+import Button from "../components/Button";
+import AboutImg from "../assets/aboutMePage.svg";
+import AboutInfoItem from "../components/AboutInfoItem";
+import ContactBanner from "../components/ContactBanner";
 
 const AboutPageStyles = styled.div`
   padding: 20rem 0 10rem 0;
@@ -20,7 +19,6 @@ const AboutPageStyles = styled.div`
   }
   .right {
     flex: 2;
-
   }
   .about__subheading {
     font-size: 2.2rem;
@@ -41,7 +39,7 @@ const AboutPageStyles = styled.div`
       max-width: 100%;
     }
   }
- 
+
   .about__info__items {
     margin-top: 15rem;
   }
@@ -83,15 +81,15 @@ export default function About() {
               <h2 className="about__heading">A freelance Web developer</h2>
               <div className="about__info">
                 <PText>
-                  I am from Kutaisi, Georgia. A place of beauty and
-                  nature. Since my childhood, i always
-                  try to design stuff with my unique point of view. I love
-                  to create things that can be usefull to others.
+                  I am from Kutaisi, Georgia. A place of beauty and nature.
+                  Since my childhood, i always try to design stuff with my
+                  unique point of view. I love to create things that can be
+                  usefull to others.
                   <br /> <br />
-                  I started coding since pandemic. Coding is also an
-                  art for me. I love it and now I have the opportunity to design
-                  along with the coding. I find it really interesting and I
-                  enjoyed the process a lot.
+                  I started coding since pandemic. Coding is also an art for me.
+                  I love it and now I have the opportunity to design along with
+                  the coding. I find it really interesting and I enjoyed the
+                  process a lot.
                   <br />
                   <br />
                   My vision is to make the world a better place. Now almost
@@ -112,39 +110,38 @@ export default function About() {
 
               <AboutInfoItem
                 title="School"
-                items={['Kutaisi, Public School #9']}
+                items={["Kutaisi, Public School #9"]}
               />
               <AboutInfoItem
                 title="Collage"
-                items={['Akaki Tsereteli State University']}
+                items={["Akaki Tsereteli State University"]}
               />
-            
             </div>
             <div className="about__info__item">
-              <h1 className="about__info__heading">My Skills</h1>
-
+              <h1 className="about__info__heading">Skills</h1>
               <AboutInfoItem
-                title="Front-end"
-                items={['JavaScript', 'HTML5' , "CSS3"]}
-              />
-              <AboutInfoItem
-                title="JS Libraries"
-                items={['React', 'Redux', 'Redux-Thunk']}
+                title="Front-End"
+                items={["Javascript", "React", "Redux", "HTML5", "CSS3"]}
               />
               <AboutInfoItem
                 title="CSS Libraries"
-                items={['Styled-Components', 'Semantic UI','Material UI',]}
+                items={[
+                  "Tailwind CSS",
+                  "Styled-Components",
+                  "Semantic UI",
+                  "Material UI",
+                ]}
               />
-               <AboutInfoItem
+              <AboutInfoItem
                 title="Version Control"
-                items={['Git', 'Github']}
+                items={["Git", "Github"]}
               />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>
-            <AboutInfoItem
+              <AboutInfoItem
                 title="2020 -"
-                items={['Freelance web Developer']}
+                items={["Freelance web Developer"]}
               />
             </div>
           </div>
