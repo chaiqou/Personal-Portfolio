@@ -1,25 +1,21 @@
-import { v4 as uuidv4 } from 'uuid';
-import portfolio from './portfolio.jpg';
-import player from './player.jpg';
+import { v4 as uuidv4 } from "uuid";
 
-
+const player = "https://source.unsplash.com/1600x900/?music";
+const portfolio = "https://source.unsplash.com/1600x900/?webdeveloper";
 
 const projects = [
   {
     id: uuidv4(),
-    name: 'Talga Player',
-    desc:
-      'Tech: HTML5, CSS3, Javascript, React, Redux, Styled-Components.',
+    name: "Talga Player",
+    desc: "Tech: React, Redux, Styled-Components.",
     img: player,
-    
   },
   {
     id: uuidv4(),
-    name: 'Personal Portfolio',
-    desc:
-      'Tech: HTML5, CSS3, Javascript, React, Styled-Components.',
+    name: "Personal Portfolio",
+    desc: "Tech: React, Styled-Components.",
     img: portfolio,
   },
- ];
+];
 
 export default projects;
