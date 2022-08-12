@@ -1,4 +1,4 @@
-.import React from "react";
+import React from "react";
 import styled from "styled-components";
 import PText from "../components/PText";
 import Button from "../components/Button";
@@ -119,15 +119,19 @@ export default function About() {
               <h1 className="about__info__heading">Skills</h1>
               <AboutInfoItem
                 title="Front-end"
-                items={["Javascript", '"HTML5"' , "CSS3", "Vue" , "React", "Tailwind CSS", ]}
+                items={[
+                  "Javascript",
+                  '"HTML5"',
+                  "CSS3",
+                  "Vue",
+                  "React",
+                  "Tailwind CSS",
+                ]}
               />
-              <AboutInfoItem
-                title="Back-end"
-                items={['PHP', 'Laravel',]}
-              />
+              <AboutInfoItem title="Back-end" items={["PHP", "Laravel"]} />
               <AboutInfoItem
                 title="Version Control/Database"
-                items={["Git", "Github" , 'MySQL']}
+                items={["Git", "Github", "MySQL"]}
               />
             </div>
             <div className="about__info__item">
@@ -136,9 +140,9 @@ export default function About() {
                 title="2021 May"
                 items={["Start learning Web Development"]}
               />
-              <AboutInfoItem 
-               title="2022 April -"
-               items={["Redberry - Intern"]}
+              <AboutInfoItem
+                title="2022 April -"
+                items={["Redberry - Intern"]}
               />
             </div>
           </div>
