@@ -1,12 +1,13 @@
-import React from 'react';
-import { MdDesktopMac } from 'react-icons/md';
-import styled from 'styled-components';
-import PText from './PText';
+import React from "react";
+import { MdDesktopMac } from "react-icons/md";
+import styled from "styled-components";
+import PText from "./PText";
 
 const ItemStyles = styled.div`
   text-align: center;
   .servicesItem__icon {
     svg {
+      margin-bottom: 1rem;
       width: 3rem;
     }
   }
@@ -20,7 +21,7 @@ const ItemStyles = styled.div`
 
 export default function ServicesSectionItem({
   icon = <MdDesktopMac />,
-  title = 'Web Design',
+  title = "Web Design",
   desc = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's ok",
 }) {
   return (

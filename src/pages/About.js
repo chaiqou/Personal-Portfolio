@@ -139,7 +139,7 @@ export default function About() {
               />
               <AboutInfoItem
                 title="2022 April -"
-                items={["Redberry - Intern"]}
+                items={["Redberry - Intern Vue & Laravel Developer"]}
               />
             </div>
           </div>

@@ -1,8 +1,14 @@
-import React from 'react';
-import { SiJavascript, SiReact, SiRedux } from 'react-icons/si';
-import styled from 'styled-components';
-import SectionTitle from './SectionTitle';
-import ServiceSectionItem from './ServiceSectionItem';
+import React from "react";
+import {
+  SiJavascript,
+  SiReact,
+  SiLaravel,
+  SiTailwindcss,
+} from "react-icons/si";
+import { FaVuejs } from "react-icons/fa";
+import styled from "styled-components";
+import SectionTitle from "./SectionTitle";
+import ServiceSectionItem from "./ServiceSectionItem";
 
 const ServicesItemsStyles = styled.div`
   padding: 10rem 0;
@@ -30,19 +36,29 @@ export default function ServicesSection() {
         <SectionTitle subheading="What i will do for you" heading="Skills" />
         <div className="services__allItems">
           <ServiceSectionItem
-            icon={<SiJavascript style={{color: "yellow"}} />}
+            icon={<SiJavascript style={{ color: "yellow" }} />}
             title="Javascript"
             desc="Javascript (JS) is a scripting languages, primarily used on the Web."
           />
           <ServiceSectionItem
-            icon={<SiReact style={{color: "#61DBFB"}} />}
-            title="React"
-            desc="React is a open-source front-end JavaScript library for building user interfaces."
+            icon={<FaVuejs style={{ color: "#42b883	" }} />}
+            title="Vue"
+            desc="Vue.js is an open-source front end JavaScript framework for building user interfaces and single-page applications."
           />
           <ServiceSectionItem
-            icon={<SiRedux style={{color: "#764abc"}}  />}
-            title="Redux"
-            desc="Redux is an open-source JavaScript library for managing and centralizing application state."
+            icon={<SiLaravel style={{ color: "#fb503b" }} />}
+            title="Laravel"
+            desc="Laravel is a free and open-source PHP web framework, following the (MVC) architectural pattern."
+          />
+          <ServiceSectionItem
+            icon={<SiTailwindcss style={{ color: "#67e8f9" }} />}
+            title="Tailwind"
+            desc="A utility-first CSS framework."
+          />
+          <ServiceSectionItem
+            icon={<SiReact style={{ color: "#61DBFB" }} />}
+            title="React"
+            desc="React is a open-source front-end JavaScript library for building user interfaces."
           />
         </div>
       </div>
