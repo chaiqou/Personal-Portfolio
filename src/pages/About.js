@@ -129,10 +129,7 @@ export default function About() {
                 ]}
               />
               <AboutInfoItem title="Back-end" items={["PHP", "Laravel"]} />
-              <AboutInfoItem
-                title="Version Control/Database"
-                items={["Git", "Github", "MySQL"]}
-              />
+              <AboutInfoItem title="Tools" items={["Git", "Github", "MySQL"]} />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>
