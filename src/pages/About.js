@@ -1,4 +1,4 @@
-import React from "react";
+.import React from "react";
 import styled from "styled-components";
 import PText from "../components/PText";
 import Button from "../components/Button";
@@ -78,18 +78,16 @@ export default function About() {
               <p className="about__subheading">
                 Hi, I'm <span>Nikoloz Lomtadze</span>
               </p>
-              <h2 className="about__heading">A freelance Web developer</h2>
+              <h2 className="about__heading">A Web developer</h2>
               <div className="about__info">
                 <PText>
                   I am from Kutaisi, Georgia. A place of beauty and nature.
                   Since my childhood, i always try to design stuff with my
                   unique point of view. I love to create things that can be
-                  usefull to others.
+                  useful to others.
                   <br /> <br />
                   I started coding since pandemic. Coding is also an art for me.
-                  I love it and now I have the opportunity to design along with
-                  the coding. I find it really interesting and I enjoyed the
-                  process a lot.
+                  I find it really interesting and i enjoyed the process a lot.
                   <br />
                   <br />
                   My vision is to make the world a better place. Now almost
@@ -98,7 +96,7 @@ export default function About() {
                   place.
                 </PText>
               </div>
-              <Button btnText="Download CV" btnLink="#" />
+              <Button btnText="Soon CV" btnLink="#" />
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />
@@ -120,28 +118,27 @@ export default function About() {
             <div className="about__info__item">
               <h1 className="about__info__heading">Skills</h1>
               <AboutInfoItem
-                title="Front-End"
-                items={["Javascript", "React", "Redux", "HTML5", "CSS3"]}
+                title="Front-end"
+                items={["Javascript", '"HTML5"' , "CSS3", "Vue" , "React", "Tailwind CSS", ]}
               />
               <AboutInfoItem
-                title="CSS Libraries"
-                items={[
-                  "Tailwind CSS",
-                  "Styled-Components",
-                  "Semantic UI",
-                  "Material UI",
-                ]}
+                title="Back-end"
+                items={['PHP', 'Laravel',]}
               />
               <AboutInfoItem
-                title="Version Control"
-                items={["Git", "Github"]}
+                title="Version Control/Database"
+                items={["Git", "Github" , 'MySQL']}
               />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>
               <AboutInfoItem
-                title="2020 -"
-                items={["Freelance web Developer"]}
+                title="2021 May"
+                items={["Start learning Web Development"]}
+              />
+              <AboutInfoItem 
+               title="2022 April -"
+               items={["Redberry - Intern"]}
               />
             </div>
           </div>
