@@ -138,8 +138,12 @@ export default function About() {
                 items={["Start learning Web Development"]}
               />
               <AboutInfoItem
-                title="2022 April -"
+                title="2022 April - 2022 August"
                 items={["Redberry - Intern Vue & Laravel Developer"]}
+              />
+              <AboutInfoItem
+                title="2022 August -"
+                items={["Redberry - Junior Vue & Laravel Developer"]}
               />
             </div>
           </div>
