@@ -1,10 +1,11 @@
-import React from 'react';
-import styled from 'styled-components';
-import PText from './PText';
+import React from "react";
+import styled from "styled-components";
+import PText from "./PText";
 
 const AboutItemStyles = styled.div`
   display: flex;
   align-items: center;
+
   justify-content: flex-start;
   position: relative;
   /* gap: 5rem; */
@@ -21,6 +22,7 @@ const AboutItemStyles = styled.div`
   .item {
     background-color: var(--deep-dark);
     padding: 1rem;
+    margin-left: 3rem;
     border-radius: 8px;
   }
   @media only screen and (max-width: 768px) {
@@ -38,8 +40,8 @@ const AboutItemStyles = styled.div`
 `;
 
 export default function AboutInfoItem({
-  title = 'Title',
-  items = ['HTML', 'CSS'],
+  title = "Title",
+  items = ["HTML", "CSS"],
 }) {
   return (
     <AboutItemStyles>
