@@ -1,3 +1,1 @@
-Personal Portfolio website for me.
-Used technologies React,Styled-components,React-router-dom
-Link => https://nikolozlomtadze.netlify.app/
+Personal Portfolio Website is a web application built using React, Styled-components, and React-router-dom. The website showcases my personal information, education, work experience, projects, and skills in an interactive and visually appealing manner.
